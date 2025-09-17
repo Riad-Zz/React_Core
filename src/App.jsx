@@ -1,6 +1,6 @@
 import './App.css'
 import Counting from './count';
-import Player from './player';
+import Player from './play';
 
 function App() {
 
@@ -29,7 +29,8 @@ function App() {
       {/* Onclick Handler with Parameter handle */}
       <button onClick={()=>handleParameter(5)}>Add me</button> 
       <Counting></Counting>
-      <Player name={"Rahim"}></Player>
+      {/* Use  State  */}
+      <Player name={"Bro"}></Player>
     </>
   )
 }
